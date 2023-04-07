@@ -1,26 +1,24 @@
-import { DiGithub } from "react-icons/di";
-import { BsPhoneVibrate } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
+import { BsGithub } from "react-icons/bs";
+import { BsPhoneFill } from "react-icons/bs";
+import { BsMailbox2 } from "react-icons/bs";
 
 const Navigation = () => {
   return (
     <>
       <nav id="navigation" className="flex">
-        <div className="flex">
+        <div>
           <h2>
-            Sixsinglebird <DiGithub className="navLogo" />
+            Sixsinglebird <BsGithub className="navLogo" />
           </h2>
         </div>
-        <hr />
-        <div className="flex">
+        <div>
           <h2>
-            +1 (709) 685-3999 <BsPhoneVibrate className="navLogo" />
+            +1 (709) 685-3999 <BsPhoneFill className="navLogo" />
           </h2>
         </div>
-        <hr />
-        <div className="flex">
+        <div>
           <h2>
-            asingleton.business@gmail.com <HiOutlineMail className="navLogo" />
+            asingleton.business@gmail.com <BsMailbox2 className="navLogo" />
           </h2>
         </div>
       </nav>

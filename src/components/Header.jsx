@@ -3,7 +3,7 @@
 
 import Navigation from "./Navigation";
 
-const Header = ({ onAdd, title }) => {
+const Header = ({ title }) => {
   return (
     <>
       <header className="flex">

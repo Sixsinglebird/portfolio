@@ -3,26 +3,38 @@
   padding: 0;
 }
 
-html {
-  background-color: #568b56;
+p {
+  margin-top: 16px;
+  text-indent: 32px;
 }
 
-hr {
-  margin: 0 8px;
+html {
+  background-color: #568b56;
 }
 
 header {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
-  padding: 16px;
+  padding: 32px 16px 0px 16px;
   border-bottom: 3px solid black;
-  height: 96px;
+  height: 88px;
+}
+
+figure {
+  width: 240px;
+  height: 300px;
+}
+
+#aboutMe {
+  width: 100%;
+  margin: 40px 0px;
 }
 
 #title {
   /* text */
-  line-height: 48px;
-  font-size: 96px;
+  line-height: 40px;
+  font-size: 80px;
+  font-weight: 500;
   letter-spacing: -0.11em;
 
   /* dimensions */
@@ -30,10 +42,50 @@ header {
   width: 342px;
 }
 
+#intro {
+  /* container */
+  width: 45%;
+  margin: 32px auto;
+}
+
+#intro h3 {
+  /* text */
+  text-decoration: underline;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+/* creating polaroid */
+.polaroid {
+  margin: 0 auto;
+  width: 20%;
+
+  /* drop-shadow */
+  filter: drop-shadow(24px 16px 8px rgba(0, 0, 0, 0.25));
+
+  /* rotation */
+  transform: rotate(-6.27deg);
+
+  /* borders */
+  border-top: 36px solid #d09c98;
+  border-left: 36px solid #d09c98;
+  border-right: 36px solid #d09c98;
+  border-bottom: 48px solid #d09c98;
+  border-radius: 1%;
+}
+
 #navigation {
   font-size: 12px;
   margin-top: auto;
   margin-left: auto;
+  flex-direction: row;
+  align-items: center;
+}
+
+#navigation div {
+  padding-left: 16px;
+  padding-right: 8px;
+  border-right: 2px solid #fff;
 }
 
 .navLogo {
