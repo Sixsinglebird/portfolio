@@ -16,6 +16,7 @@ const Skills = () => {
           <Skill title="Figma" />
         </div>
       </div>
+      <hr />
     </>
   );
 };
