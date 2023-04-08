@@ -1,9 +1,10 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
+import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import MyWork from "./components/MyWork";
 import Skills from "./components/Skills";
+import Photos from "./components/Photos";
 import { useState } from "react";
 
 function App() {
@@ -11,13 +12,17 @@ function App() {
   const [front, flip] = useState(true);
 
   const flipCard = () => flip(!front);
+  const deg = Math.random(1) * 10 - 5;
 
   return (
     <>
       <Header title="Alex Singleton" action={flipCard} />
       <AboutMe card={front} />
+      <hr />
+      <Photos deg={deg} />
+      <hr />
       <Skills />
-      <MyWork />
+      <Navigation />
       <Footer />
     </>
   );

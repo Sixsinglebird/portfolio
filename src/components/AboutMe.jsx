@@ -1,34 +1,36 @@
 import React from "react";
 import PolaroidMod from "./PolaroidMod";
 import headshot from "../images/headshot.jpg";
-import Photos from "../components/Photos.jsx";
 
 const AboutMe = ({ card }) => {
   return (
     <>
       <div className="flex display">
         <div id="intro">
-          <h3>Hi, I'm Alex.</h3>
+          <blockquote>
+            <h3>Hi, I'm Alex.</h3>
+          </blockquote>
           <p>
-            I'm Alexander Francis Singleton, an aspiring junior developer from
-            the east-coast of Canada.
-          </p>{" "}
-          <p>
-            I am a life long learner, I enjoy the struggle of figuring new
-            things out.
+            I’m Alexander Francis Singleton, a junior software developer and
+            designer from Newfoundland. I am a life long learner, also a
+            beekeeper, and amateur musician.
           </p>{" "}
           <p>
             I have the privilege of enjoying beekeeping in the warmer seasons,
             and formerly worked with a non-for profit landscaping company, The
-            Grand Concourse.
+            Grand Concourse, where I helped to maintain the city’s trails around
+            areas like cbs and Quidi-Vidi Lake (Hard but rewarding work).
           </p>{" "}
-          <p>Always looking to expand my horizon.</p>
+          <p>
+            <em>I love when someone else can enjoy something I worked on.</em>
+          </p>{" "}
+          <p>
+            I’ve always believed in a bigger picture and I’m Always looking to
+            expand the horizon of myself and those around me.
+          </p>
         </div>
         <PolaroidMod source={headshot} card={card} />
       </div>
-      <hr />
-      <Photos />
-      <hr />
     </>
   );
 };
