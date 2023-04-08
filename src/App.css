@@ -86,7 +86,9 @@ figure {
 
 #skills {
   width: 85%;
-  margin: auto auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
 }
 
 #contactInfo {
@@ -127,7 +129,7 @@ figure {
   height: 280px;
 
   /* drop-shadow */
-  filter: drop-shadow(24px 16px 8px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(8px 16px 8px rgba(0, 0, 0, 0.25));
 
   /* rotation */
   /* transform: rotate(-6.27deg); */
@@ -138,4 +140,13 @@ figure {
   border-right: 36px solid #d09c98;
   border-bottom: 48px solid #d09c98;
   border-radius: 1%;
+}
+
+.skill {
+  padding: 2px 8px;
+  margin: 8px auto;
+  text-align: center;
+  min-width: 80px;
+  background-color: #d09c98;
+  border: 4px solid rgba(125, 50, 50, 0.63);
 }
