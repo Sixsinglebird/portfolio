@@ -9,7 +9,6 @@ const Header = ({ title, action }) => {
     <>
       <header className="flex">
         <h1 id="title">{title}</h1>
-
         <Button onClick={action} text={"Contact Me"} />
       </header>
     </>
