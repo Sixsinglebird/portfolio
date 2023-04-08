@@ -3,26 +3,74 @@
   padding: 0;
 }
 
+p {
+  margin-top: 16px;
+  text-indent: 32px;
+}
+
 html {
+  min-width: 900;
   background-color: #568b56;
 }
 
-hr {
-  margin: 0 8px;
+button {
+  /* text */
+  font-size: 32px;
+
+  /* sizing */
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 8px;
+
+  /* postion */
+  margin: auto 48px auto auto;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid #aa3939;
+  background-color: #d09c98;
 }
 
 header {
   background-color: rgba(0, 0, 0, 0.65);
-  color: white;
-  padding: 16px;
+  color: #fff;
+  padding: 32px 16px 0px 16px;
   border-bottom: 3px solid black;
-  height: 96px;
+  height: 88px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  height: 176px;
+}
+
+img {
+  width: 115%;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 56px;
+}
+
+h3 {
+  /* text */
+  text-decoration: underline;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+figure {
+  background-color: #d09c98;
 }
 
 #title {
   /* text */
-  line-height: 48px;
-  font-size: 96px;
+  line-height: 40px;
+  font-size: 80px;
+  font-weight: 500;
   letter-spacing: -0.11em;
 
   /* dimensions */
@@ -30,10 +78,28 @@ header {
   width: 342px;
 }
 
-#navigation {
-  font-size: 12px;
-  margin-top: auto;
-  margin-left: auto;
+#intro {
+  /* container */
+  width: 45%;
+  margin: 32px auto;
+}
+
+#skills {
+  width: 85%;
+  margin: auto auto;
+}
+
+#contactInfo {
+  font-size: 10px;
+  color: #fff;
+}
+
+#contactInfo div {
+  text-align: center;
+  margin-top: 48px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding-left: 2px;
 }
 
 .navLogo {
@@ -46,4 +112,30 @@ header {
 
 .stroke {
   -webkit-text-stroke: 0.7px black;
+}
+
+.display {
+  width: 100%;
+  margin: 40px 0px;
+}
+
+/* polaroid */
+.polaroid {
+  margin: auto auto;
+  overflow: hidden;
+  width: 240px;
+  height: 280px;
+
+  /* drop-shadow */
+  filter: drop-shadow(24px 16px 8px rgba(0, 0, 0, 0.25));
+
+  /* rotation */
+  /* transform: rotate(-6.27deg); */
+
+  /* borders */
+  border-top: 36px solid #d09c98;
+  border-left: 36px solid #d09c98;
+  border-right: 36px solid #d09c98;
+  border-bottom: 48px solid #d09c98;
+  border-radius: 1%;
 }
