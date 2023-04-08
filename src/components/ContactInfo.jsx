@@ -5,7 +5,7 @@ import { BsMailbox2 } from "react-icons/bs";
 const Navigation = () => {
   return (
     <>
-      <nav id="navigation" className="flex">
+      <nav id="contactInfo">
         <div>
           <h2>
             Sixsinglebird <BsGithub className="navLogo" />
@@ -18,7 +18,8 @@ const Navigation = () => {
         </div>
         <div>
           <h2>
-            asingleton.business@gmail.com <BsMailbox2 className="navLogo" />
+            {/* <BsMailbox2 className="navLogo" /> */}
+            asingleton.business@gmail.com
           </h2>
         </div>
       </nav>

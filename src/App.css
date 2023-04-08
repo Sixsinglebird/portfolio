@@ -9,25 +9,61 @@ p {
 }
 
 html {
+  min-width: 900;
   background-color: #568b56;
+}
+
+button {
+  /* text */
+  font-size: 32px;
+
+  /* sizing */
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 8px;
+
+  /* postion */
+  margin: auto 48px auto auto;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid #aa3939;
+  background-color: #d09c98;
 }
 
 header {
   background-color: rgba(0, 0, 0, 0.65);
-  color: white;
+  color: #fff;
   padding: 32px 16px 0px 16px;
   border-bottom: 3px solid black;
   height: 88px;
 }
 
-figure {
-  width: 240px;
-  height: 300px;
+footer {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  height: 176px;
 }
 
-#aboutMe {
-  width: 100%;
-  margin: 40px 0px;
+img {
+  width: 115%;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 56px;
+}
+
+h3 {
+  /* text */
+  text-decoration: underline;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+figure {
+  background-color: #d09c98;
 }
 
 #title {
@@ -48,44 +84,22 @@ figure {
   margin: 32px auto;
 }
 
-#intro h3 {
-  /* text */
-  text-decoration: underline;
-  font-size: 36px;
-  font-weight: normal;
+#skills {
+  width: 85%;
+  margin: auto auto;
 }
 
-/* creating polaroid */
-.polaroid {
-  margin: 0 auto;
-  width: 20%;
-
-  /* drop-shadow */
-  filter: drop-shadow(24px 16px 8px rgba(0, 0, 0, 0.25));
-
-  /* rotation */
-  transform: rotate(-6.27deg);
-
-  /* borders */
-  border-top: 36px solid #d09c98;
-  border-left: 36px solid #d09c98;
-  border-right: 36px solid #d09c98;
-  border-bottom: 48px solid #d09c98;
-  border-radius: 1%;
+#contactInfo {
+  font-size: 10px;
+  color: #fff;
 }
 
-#navigation {
-  font-size: 12px;
-  margin-top: auto;
-  margin-left: auto;
-  flex-direction: row;
-  align-items: center;
-}
-
-#navigation div {
-  padding-left: 16px;
-  padding-right: 8px;
-  border-right: 2px solid #fff;
+#contactInfo div {
+  text-align: center;
+  margin-top: 48px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding-left: 2px;
 }
 
 .navLogo {
@@ -98,4 +112,30 @@ figure {
 
 .stroke {
   -webkit-text-stroke: 0.7px black;
+}
+
+.display {
+  width: 100%;
+  margin: 40px 0px;
+}
+
+/* polaroid */
+.polaroid {
+  margin: auto auto;
+  overflow: hidden;
+  width: 240px;
+  height: 280px;
+
+  /* drop-shadow */
+  filter: drop-shadow(24px 16px 8px rgba(0, 0, 0, 0.25));
+
+  /* rotation */
+  /* transform: rotate(-6.27deg); */
+
+  /* borders */
+  border-top: 36px solid #d09c98;
+  border-left: 36px solid #d09c98;
+  border-right: 36px solid #d09c98;
+  border-bottom: 48px solid #d09c98;
+  border-radius: 1%;
 }
