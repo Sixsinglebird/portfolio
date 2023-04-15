@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "./ContactInfo.jsx";
+import ContactInfo from "./ContactInfo.jsx";
 
 const Polaroid = ({ source, card }) => {
   // random degree between -5 & 5
@@ -10,7 +10,7 @@ const Polaroid = ({ source, card }) => {
         {card && <img src={source} alt="" /> ? (
           <img src={source} alt="" />
         ) : (
-          <Navigation />
+          <ContactInfo />
         )}
       </figure>
     </>

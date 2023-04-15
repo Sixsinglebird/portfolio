@@ -1,6 +1,5 @@
 import { BsGithub } from "react-icons/bs";
 import { BsPhoneFill } from "react-icons/bs";
-import { BsMailbox2 } from "react-icons/bs";
 
 const Navigation = () => {
   return (
@@ -8,7 +7,12 @@ const Navigation = () => {
       <nav id="contactInfo">
         <div>
           <h2>
-            Sixsinglebird <BsGithub className="navLogo" />
+            <a
+              href="https://github.com/Sixsinglebird"
+              style={{ textDecoration: "none" }}
+            >
+              Sixsinglebird <BsGithub className="navLogo" />
+            </a>
           </h2>
         </div>
         <div>
@@ -17,10 +21,7 @@ const Navigation = () => {
           </h2>
         </div>
         <div>
-          <h2>
-            {/* <BsMailbox2 className="navLogo" /> */}
-            asingleton.business@gmail.com
-          </h2>
+          <h2>asingleton.business@gmail.com</h2>
         </div>
       </nav>
     </>
