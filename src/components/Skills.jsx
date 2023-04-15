@@ -14,6 +14,7 @@ const Skills = () => {
           <Skill title="Python" />
           <Skill title="Unity" />
           <Skill title="Figma" />
+          <Skill title="OpenAI API" />
         </div>
       </div>
       <hr />
