@@ -12,13 +12,13 @@ const Skills = () => {
         </div>
         <div className="flex" style={{ width: "65%", margin: " 8px auto" }}>
           <Skill title="Python" />
-          <Skill title="Unity" />
-          <Skill title="Figma" />
-          <Skill title="OpenAI API" />
+          <Skill title="Java" />
+          <Skill title="UI/UX Design" />
+          <Skill title="Leadership" />
         </div>
         <div className="flex" style={{ width: "65%", margin: " 8px auto" }}>
-          <Skill title="React" />
-          <Skill title="Node.js" />
+          <Skill title="Agile" />
+          <Skill title="Linux" />
         </div>
       </div>
       <hr />

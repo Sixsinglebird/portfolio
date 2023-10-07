@@ -17,13 +17,15 @@ function App() {
   return (
     <>
       <Header title="Alex Singleton" action={flipCard} />
-      <AboutMe card={front} />
-      <hr />
-      <Photos deg={deg} />
-      <hr />
-      <Skills />
-      <Navigation />
-      <Footer />
+      <div id="mainContent">
+        <AboutMe card={front} />
+        <hr />
+        <Photos deg={deg} />
+        <hr />
+        <Skills />
+        <Navigation />
+        <Footer />
+      </div>
     </>
   );
 }

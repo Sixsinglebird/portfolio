@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+#mainContent {
+  max-width: 904px;
+  margin: 0 auto;
+}
+
 blockquote {
   text-indent: 48px;
 }
@@ -60,11 +65,7 @@ button:active {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.65);
-  color: #fff;
-  height: 176px;
-  padding-top: 80px;
-  padding-left: 16px;
+  color: black;
 }
 
 img {
@@ -111,11 +112,6 @@ figure {
   margin-top: 8px;
 }
 
-#photos {
-  margin: auto;
-  width: 65%;
-}
-
 #contactInfo {
   font-size: 10px;
   color: #fff;
@@ -130,8 +126,7 @@ figure {
 
 #nav {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 #nav button {
