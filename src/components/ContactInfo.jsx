@@ -21,7 +21,7 @@ const Navigation = () => {
           </h2>
         </div>
         <div>
-          <h2>asingleton.business@gmail.com</h2>
+          <h2>alex.singleton@keyin.com</h2>
         </div>
       </nav>
     </>
