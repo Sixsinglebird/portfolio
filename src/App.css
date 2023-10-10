@@ -89,6 +89,10 @@ figure {
   background-color: #d09c98;
 }
 
+#portrait {
+  display: none;
+}
+
 #title {
   /* text */
   line-height: 40px;
@@ -111,16 +115,19 @@ figure {
   margin: 8px;
 }
 
+#contactButton {
+  display: block;
+}
+
 #contactInfo {
   font-size: 10px;
-  color: #fff;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
 }
 
 #contactInfo div {
   text-align: center;
   margin-top: 48px;
-  border-top: 2px solid #fff;
-  border-left: 2px solid #fff;
 }
 
 #nav {
@@ -129,7 +136,7 @@ figure {
 }
 
 #nav button {
-  margin: 32px auto;
+  margin: 16px auto;
 }
 
 .navLogo {
@@ -180,9 +187,22 @@ figure {
 
 @media (max-width: 768px) {
   /* Adjust the screen width as needed */
-  .polaroid {
+  #photos {
     display: none;
   }
+
+  #contactButton {
+    display: none;
+  }
+
+  #introPortrait {
+    display: none;
+  }
+
+  #portrait {
+    display: block;
+  }
+
   #title {
     /* text */
     line-height: 40px;
@@ -194,30 +214,43 @@ figure {
     width: 342px;
   }
 
+  #contact {
+    display: none;
+  }
+
   blockquote {
     text-indent: 0;
   }
 
   #intro {
     /* container */
-    width: 60%;
+    width: 80%;
     margin: 32px auto;
   }
 
+  #portrait {
+    display: block;
+  }
+
   header button {
-    /* postion */
-    margin: auto 0 auto auto;
-    font-size: small;
+    display: none;
   }
 
   .skill {
-    margin: 8px auto;
+    margin: 4px auto;
+    padding: 1px 4px;
     font-size: small;
     text-align: center;
     background-color: #d09c98;
   }
 
   #skills {
-    margin-top: 8px;
+    justify-content: center;
+    margin-top: 8px auto;
+    width: 95%;
+  }
+
+  #contactButton {
+    display: none;
   }
 }

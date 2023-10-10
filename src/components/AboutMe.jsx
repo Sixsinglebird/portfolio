@@ -29,7 +29,7 @@ const AboutMe = ({ card }) => {
             expand the horizon of myself and those around me.
           </p>
         </div>
-        <PolaroidMod source={headshot} card={card} />
+        <PolaroidMod id="infoPortrait" source={headshot} card={card} />
       </div>
     </>
   );
