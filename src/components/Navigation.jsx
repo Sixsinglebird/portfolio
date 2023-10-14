@@ -3,7 +3,7 @@ import Button from "./Button";
 const Navigation = () => {
   return (
     <div id="nav" className="flex">
-      <a href="https://www.dropbox.com/scl/fi/7a47i2blkqzbeu7xexxsw/Resume-2023_10_06.pdf?rlkey=ac2vockkgn6rm9r965zz4tzc2&dl=1">
+      <a href="https://www.dropbox.com/scl/fi/2tkbfcmfkm611iibt1jde/Resume-2023_10_06.pdf?rlkey=b4xfb8ilezpqdeecftokg51gn&dl=1">
         <Button text="My Resume" />
       </a>
     </div>
