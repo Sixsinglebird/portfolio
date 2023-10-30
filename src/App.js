@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
+import Portrait from "./components/Portrait";
 import Photos from "./components/Photos";
 import { useState } from "react";
 
@@ -21,6 +22,7 @@ function App() {
         <AboutMe card={front} />
         <hr />
         <Photos deg={deg} />
+        <Portrait />
         <hr />
         <Skills />
         <Navigation />

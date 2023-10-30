@@ -6,7 +6,11 @@ const Polaroid = ({ source, card }) => {
   let deg = Math.random(1) * 10 - 5;
   return (
     <>
-      <figure style={{ transform: `rotate(${deg}deg)` }} className="polaroid">
+      <figure
+        style={{ transform: `rotate(${deg}deg)` }}
+        className="polaroid"
+        id="introPortrait"
+      >
         {card && <img src={source} alt="" /> ? (
           <img src={source} alt="" />
         ) : (
